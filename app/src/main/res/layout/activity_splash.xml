@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".UI.SplashActivity">
+    <ImageView
+        android:id="@+id/logoMavi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_mavi"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:contentDescription="" />
+<!--    <TextView
+        android:id="@+id/Mavi"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="80dp"
+        android:layout_below="@+id/logoMavi"
+        android:layout_alignLeft="@+id/logoMavi"
+        android:text="MAVI"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="COMERCIO * GLOBAL"
+        android:layout_below="@+id/Mavi"/>-->
+</RelativeLayout>
